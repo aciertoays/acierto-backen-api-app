@@ -16,6 +16,7 @@
 
 /logs/*
 !/logs/empty
+!/logs/README.md
 
 # CakePHP 2
 
@@ -23,3 +24,13 @@
 /app/Config/core.php
 /app/Config/database.php
 /vendors/*
+
+# IDE
+.idea/
+.vscode/
+/coverage/
+
+# DEV - config
+.phpunit.result.cache
+/environments/.env.dev
+/environments/.env.prod
