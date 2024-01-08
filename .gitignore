@@ -34,3 +34,4 @@
 .phpunit.result.cache
 /environments/.env.dev
 /environments/.env.prod
+composer.lock
